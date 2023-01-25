@@ -1,6 +1,4 @@
-#c
-#define _CRT_SECURE_NO_WARNINGS
-#define _CRT_NONSTDC_NO_WARNINGS
+#define_CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <cs50.h>
 // #include <string.h>
@@ -27,12 +25,11 @@ int factorialof(int num)
     return fact;
 }
 
-
     unsigned int getname(char[]);
     char name;
     unsigned int length;
     printf("Plase Enter Yuor Name :");
-    // gets(name);
+    gets(name);
     scanf("%s",&name);
     getname(&name);
     length = getname(&name);
@@ -82,9 +79,9 @@ int add(int, int, int);
     int a, b, c;
     printf("Plase Enter Two Numbers\n");
     scanf("%d\n %d",&a ,&b);
-    // c = add(a,b);
+    c = add(a,b);
     add(a,b);
-    // printf("%d\n",c);
+    printf("%d\n",c);
 }
 void add(int y, int x)
 {
